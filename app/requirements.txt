@@ -1,0 +1,9 @@
+torch
+ultralytics
+opencv-python
+PyQt6
+numpy
+scipy
+matplotlib
+beautifulsoup4
+requests

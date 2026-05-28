@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+
+# Runtime outputs from the desktop app
+app/output_videos/*
+!app/output_videos/.gitkeep
+
+# Local environment/config files
+.env
+.env.*

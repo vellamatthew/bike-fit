@@ -1,2 +1,18 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Binary model/checkpoint artefacts
+*.pt binary
+*.pth binary
+*.onnx binary
+*.task binary
+*.caffemodel binary
+*.weights binary
+*.engine binary
+
+# Video artefacts
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+*.webm binary

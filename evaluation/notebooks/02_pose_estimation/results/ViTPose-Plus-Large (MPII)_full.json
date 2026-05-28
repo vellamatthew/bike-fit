@@ -1,0 +1,2539 @@
+{
+  "aggregated": {
+    "detection_rate": {
+      "overall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "per_keypoint": {
+        "ankle": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "elbow": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "hip": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "knee": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "shoulder": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "wrist": {
+          "mean": 1.0,
+          "std": 0.0
+        }
+      }
+    },
+    "pckh": {
+      "0.0": {
+        "mean": 0.0,
+        "std": 0.0,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "elbow": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "hip": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "knee": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "shoulder": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "wrist": {
+            "mean": 0.0,
+            "std": 0.0
+          }
+        }
+      },
+      "0.1": {
+        "mean": 62.569444444444436,
+        "std": 24.862953842321957,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 40.20833333333333,
+            "std": 35.33753414493496
+          },
+          "elbow": {
+            "mean": 62.5,
+            "std": 43.898557303553076
+          },
+          "hip": {
+            "mean": 22.083333333333336,
+            "std": 29.933375092769676
+          },
+          "knee": {
+            "mean": 77.29166666666667,
+            "std": 18.279988679184434
+          },
+          "shoulder": {
+            "mean": 76.875,
+            "std": 33.34570083067514
+          },
+          "wrist": {
+            "mean": 96.45833333333333,
+            "std": 15.437767091706549
+          }
+        }
+      },
+      "0.2": {
+        "mean": 94.34027777777779,
+        "std": 7.204254492534936,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 85.83333333333334,
+            "std": 29.7384431334258
+          },
+          "elbow": {
+            "mean": 98.125,
+            "std": 8.172935519138763
+          },
+          "hip": {
+            "mean": 82.70833333333334,
+            "std": 27.044042011750633
+          },
+          "knee": {
+            "mean": 99.375,
+            "std": 1.487797589279757
+          },
+          "shoulder": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "wrist": {
+            "mean": 100.0,
+            "std": 0.0
+          }
+        }
+      },
+      "0.3": {
+        "mean": 98.75,
+        "std": 1.920738428602688,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 94.79166666666666,
+            "std": 17.573012373776127
+          },
+          "elbow": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "hip": {
+            "mean": 97.91666666666667,
+            "std": 9.081039465709738
+          },
+          "knee": {
+            "mean": 99.79166666666667,
+            "std": 0.9081039465709715
+          },
+          "shoulder": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "wrist": {
+            "mean": 100.0,
+            "std": 0.0
+          }
+        }
+      },
+      "0.4": {
+        "mean": 99.47916666666667,
+        "std": 1.1646187382811404,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 96.875,
+            "std": 13.621559198564604
+          },
+          "elbow": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "hip": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "knee": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "shoulder": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "wrist": {
+            "mean": 100.0,
+            "std": 0.0
+          }
+        }
+      },
+      "0.5": {
+        "mean": 99.6875,
+        "std": 0.6987712429686843,
+        "per_keypoint": {
+          "ankle": {
+            "mean": 98.125,
+            "std": 8.172935519138763
+          },
+          "elbow": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "hip": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "knee": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "shoulder": {
+            "mean": 100.0,
+            "std": 0.0
+          },
+          "wrist": {
+            "mean": 100.0,
+            "std": 0.0
+          }
+        }
+      }
+    },
+    "auc": {
+      "overall": {
+        "mean": 80.99652777777777,
+        "std": 6.775099261550196
+      },
+      "per_keypoint": {
+        "ankle": {
+          "mean": 73.35416666666667,
+          "std": 16.36098583945628
+        },
+        "elbow": {
+          "mean": 82.125,
+          "std": 9.440879637689136
+        },
+        "hip": {
+          "mean": 70.54166666666666,
+          "std": 10.702008508271293
+        },
+        "knee": {
+          "mean": 85.29166666666666,
+          "std": 3.8484755279056815
+        },
+        "shoulder": {
+          "mean": 85.375,
+          "std": 6.669140166135029
+        },
+        "wrist": {
+          "mean": 89.29166666666666,
+          "std": 3.087553418341311
+        }
+      }
+    },
+    "angle_mae": {
+      "overall": {
+        "mean": 5.111387745936581,
+        "std": 1.3849918026803607
+      },
+      "per_joint": {
+        "elbow": {
+          "mean": 4.4241641270023235,
+          "std": 3.114910574312836
+        },
+        "hip": {
+          "mean": 3.8665738525702813,
+          "std": 2.6935481851999308
+        },
+        "knee": {
+          "mean": 7.0434252582371375,
+          "std": 2.8730617378982215
+        }
+      }
+    },
+    "angle_rmse": {
+      "overall": {
+        "mean": 5.388517448962664,
+        "std": 1.391049989113659
+      },
+      "per_joint": {
+        "elbow": {
+          "mean": 4.66490093264995,
+          "std": 3.0448190038752942
+        },
+        "hip": {
+          "mean": 4.166086311917255,
+          "std": 2.6733459726238067
+        },
+        "knee": {
+          "mean": 7.334565102320786,
+          "std": 2.7923794415084306
+        }
+      }
+    },
+    "angle_me": {
+      "overall": {
+        "mean": 3.906333212881144,
+        "std": 2.0515029609509656
+      },
+      "per_joint": {
+        "elbow": {
+          "mean": 2.014946971715191,
+          "std": 4.9722209342393855
+        },
+        "hip": {
+          "mean": 2.946773026622228,
+          "std": 3.5519528329993504
+        },
+        "knee": {
+          "mean": 6.757279640306012,
+          "std": 3.459722656697034
+        }
+      }
+    },
+    "n_frames": {
+      "per_keypoint": {
+        "ankle": {
+          "detected": 480,
+          "total": 480
+        },
+        "elbow": {
+          "detected": 480,
+          "total": 480
+        },
+        "hip": {
+          "detected": 480,
+          "total": 480
+        },
+        "knee": {
+          "detected": 480,
+          "total": 480
+        },
+        "shoulder": {
+          "detected": 480,
+          "total": 480
+        },
+        "wrist": {
+          "detected": 480,
+          "total": 480
+        }
+      }
+    }
+  },
+  "per_video": {
+    "0": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 37.5,
+          "elbow": 0.0,
+          "hip": 95.83333333333334,
+          "knee": 70.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 77.5,
+        "elbow": 70.0,
+        "hip": 89.16666666666669,
+        "knee": 84.16666666666669,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 3.517608405638485,
+        "hip": 1.4976287495070804,
+        "elbow": 10.372306400693285
+      },
+      "angle_rmse": {
+        "knee": 3.843791832825399,
+        "hip": 1.7816911578202292,
+        "elbow": 10.526124010961727
+      },
+      "angle_me": {
+        "knee": 3.517608405638485,
+        "hip": 1.4145437646034154,
+        "elbow": 10.372306400693285
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "1": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 0.0,
+          "elbow": 37.5,
+          "hip": 37.5,
+          "knee": 41.66666666666667,
+          "shoulder": 58.333333333333336,
+          "wrist": 29.166666666666668
+        },
+        "0.2": {
+          "ankle": 0.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 95.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 20.833333333333336,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 95.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 37.5,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 62.5,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 17.916666666666668,
+        "elbow": 77.5,
+        "hip": 77.5,
+        "knee": 76.66666666666667,
+        "shoulder": 81.66666666666667,
+        "wrist": 75.83333333333333
+      },
+      "angle_mae": {
+        "knee": 2.5271268001101572,
+        "hip": 2.663715338843988,
+        "elbow": 3.2960761498108844
+      },
+      "angle_rmse": {
+        "knee": 3.232423645964413,
+        "hip": 2.9324839070276085,
+        "elbow": 3.610893078833066
+      },
+      "angle_me": {
+        "knee": 1.755812544932428,
+        "hip": 2.363523073682662,
+        "elbow": 3.2960761498108844
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "2": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 8.333333333333332,
+          "knee": 91.66666666666666,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 25.0,
+          "elbow": 100.0,
+          "hip": 70.83333333333334,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 79.16666666666666,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 50.83333333333333,
+        "elbow": 70.0,
+        "hip": 65.83333333333334,
+        "knee": 88.33333333333334,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 6.4192667685250555,
+        "hip": 3.8856153023984583,
+        "elbow": 10.771706145256337
+      },
+      "angle_rmse": {
+        "knee": 6.583857980644352,
+        "hip": 4.076694110060548,
+        "elbow": 10.841057816782875
+      },
+      "angle_me": {
+        "knee": 6.4192667685250555,
+        "hip": 3.8856153023984583,
+        "elbow": 10.771706145256337
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "3": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 87.5,
+          "elbow": 100.0,
+          "hip": 75.0,
+          "knee": 87.5,
+          "shoulder": 20.833333333333336,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 87.5,
+        "elbow": 90.0,
+        "hip": 85.0,
+        "knee": 87.5,
+        "shoulder": 74.16666666666667,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 4.60587296816126,
+        "hip": 5.569901595996235,
+        "elbow": 2.1525002513110962
+      },
+      "angle_rmse": {
+        "knee": 4.8187737685546415,
+        "hip": 5.810759246989647,
+        "elbow": 2.56711093163172
+      },
+      "angle_me": {
+        "knee": 4.60587296816126,
+        "hip": 5.569901595996235,
+        "elbow": -1.1184739332619316
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "4": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 70.83333333333334,
+          "elbow": 58.333333333333336,
+          "hip": 16.666666666666664,
+          "knee": 100.0,
+          "shoulder": 58.333333333333336,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 84.16666666666669,
+        "elbow": 81.66666666666667,
+        "hip": 73.33333333333333,
+        "knee": 90.0,
+        "shoulder": 81.66666666666667,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 2.4000395984460305,
+        "hip": 2.3575946090482547,
+        "elbow": 2.18535873320293
+      },
+      "angle_rmse": {
+        "knee": 2.6993364968368083,
+        "hip": 2.649109681186556,
+        "elbow": 2.4807496458923843
+      },
+      "angle_me": {
+        "knee": -2.4000395984460305,
+        "hip": -2.3575946090482547,
+        "elbow": 2.1818714872516836
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "5": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 37.5,
+          "elbow": 87.5,
+          "hip": 37.5,
+          "knee": 95.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 95.83333333333334,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 77.5,
+        "elbow": 87.5,
+        "hip": 76.66666666666667,
+        "knee": 89.16666666666669,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 6.1257796808942455,
+        "hip": 1.0756427432700797,
+        "elbow": 4.250346830772859
+      },
+      "angle_rmse": {
+        "knee": 6.306888134165631,
+        "hip": 1.283576080315006,
+        "elbow": 4.398384607240936
+      },
+      "angle_me": {
+        "knee": 6.1257796808942455,
+        "hip": 0.6998743193463312,
+        "elbow": 4.250346830772859
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "6": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 0.0,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 91.66666666666666,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 70.0,
+        "elbow": 90.0,
+        "hip": 68.33333333333333,
+        "knee": 90.0,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 7.618739914437312,
+        "hip": 3.5523054485210843,
+        "elbow": 1.9754993861498917
+      },
+      "angle_rmse": {
+        "knee": 7.751154348367587,
+        "hip": 3.7466001890889227,
+        "elbow": 2.333020613075085
+      },
+      "angle_me": {
+        "knee": 7.618739914437312,
+        "hip": 3.5523054485210843,
+        "elbow": -1.577288729181788
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "7": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 91.66666666666666,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 100.0,
+          "shoulder": 16.666666666666664,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 88.33333333333334,
+        "elbow": 90.0,
+        "hip": 70.0,
+        "knee": 90.0,
+        "shoulder": 73.33333333333333,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 6.672738255681312,
+        "hip": 1.530869718072798,
+        "elbow": 1.2112156497729902
+      },
+      "angle_rmse": {
+        "knee": 6.958943999130716,
+        "hip": 1.7854698007757979,
+        "elbow": 1.4446087390541378
+      },
+      "angle_me": {
+        "knee": 6.672738255681312,
+        "hip": -0.9931425785150516,
+        "elbow": 0.4384906770226416
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "8": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 12.5,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 91.66666666666666,
+          "shoulder": 75.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 95.83333333333334,
+          "elbow": 100.0,
+          "hip": 62.5,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 71.66666666666667,
+        "elbow": 70.0,
+        "hip": 62.5,
+        "knee": 88.33333333333334,
+        "shoulder": 85.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 8.20561956524417,
+        "hip": 2.0725456673267177,
+        "elbow": 8.747506209174599
+      },
+      "angle_rmse": {
+        "knee": 8.44059401396661,
+        "hip": 2.4947917285014505,
+        "elbow": 8.787777129542535
+      },
+      "angle_me": {
+        "knee": 8.20561956524417,
+        "hip": -1.4034048715363436,
+        "elbow": 8.747506209174599
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "9": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 0.0,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 79.16666666666666,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 25.0,
+          "elbow": 100.0,
+          "hip": 95.83333333333334,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 95.83333333333334,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 54.16666666666667,
+        "elbow": 90.0,
+        "hip": 69.16666666666667,
+        "knee": 85.83333333333334,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 6.587559528551527,
+        "hip": 6.819849106343604,
+        "elbow": 3.2050666803390526
+      },
+      "angle_rmse": {
+        "knee": 6.937740204120758,
+        "hip": 6.940461325704084,
+        "elbow": 3.2774582045720706
+      },
+      "angle_me": {
+        "knee": 6.587559528551527,
+        "hip": 6.819849106343604,
+        "elbow": -3.2050666803390526
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "10": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 100.0,
+          "elbow": 0.0,
+          "hip": 50.0,
+          "knee": 83.33333333333334,
+          "shoulder": 4.166666666666666,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 90.0,
+        "elbow": 70.0,
+        "hip": 80.0,
+        "knee": 86.66666666666669,
+        "shoulder": 70.83333333333333,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 8.930782370136562,
+        "hip": 2.6888068025945633,
+        "elbow": 6.1030763167081155
+      },
+      "angle_rmse": {
+        "knee": 9.180726348599638,
+        "hip": 3.08064110955214,
+        "elbow": 6.194726184787235
+      },
+      "angle_me": {
+        "knee": 8.930782370136562,
+        "hip": 1.9789340584962165,
+        "elbow": -6.1030763167081155
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "11": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 75.0,
+          "elbow": 95.83333333333334,
+          "hip": 79.16666666666666,
+          "knee": 95.83333333333334,
+          "shoulder": 20.833333333333336,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 85.0,
+        "elbow": 89.16666666666669,
+        "hip": 85.83333333333334,
+        "knee": 89.16666666666669,
+        "shoulder": 74.16666666666667,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 3.391504027171368,
+        "hip": 1.5497616294357364,
+        "elbow": 7.0354772307470155
+      },
+      "angle_rmse": {
+        "knee": 3.828182716163835,
+        "hip": 1.8974880361846,
+        "elbow": 7.366499818358669
+      },
+      "angle_me": {
+        "knee": 3.3457825131095045,
+        "hip": -0.771315007586912,
+        "elbow": 7.0354772307470155
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "12": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 12.5,
+          "elbow": 0.0,
+          "hip": 29.166666666666668,
+          "knee": 79.16666666666666,
+          "shoulder": 87.5,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 95.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 72.5,
+        "elbow": 70.0,
+        "hip": 75.83333333333333,
+        "knee": 85.0,
+        "shoulder": 87.5,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 5.084928572231887,
+        "hip": 2.630854011102665,
+        "elbow": 0.9721589682391247
+      },
+      "angle_rmse": {
+        "knee": 5.686257627146687,
+        "hip": 2.976697767558082,
+        "elbow": 1.2409156213343973
+      },
+      "angle_me": {
+        "knee": 4.979131179741053,
+        "hip": 1.20915519347325,
+        "elbow": -0.7121167112101799
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "13": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 37.5,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 54.166666666666664,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 83.33333333333334,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 74.16666666666667,
+        "elbow": 90.0,
+        "hip": 70.0,
+        "knee": 80.83333333333333,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 6.591217814710407,
+        "hip": 1.4522903726013012,
+        "elbow": 1.299199924089552
+      },
+      "angle_rmse": {
+        "knee": 6.879752698540014,
+        "hip": 1.8202909270284382,
+        "elbow": 1.7152085957421224
+      },
+      "angle_me": {
+        "knee": 6.591217814710407,
+        "hip": -0.9458134725032389,
+        "elbow": 0.9860316228471385
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "14": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 45.83333333333333,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 70.83333333333334,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 90.0,
+        "elbow": 90.0,
+        "hip": 64.16666666666667,
+        "knee": 79.16666666666666,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 12.246935964983885,
+        "hip": 6.6313153429634495,
+        "elbow": 8.124307927269319
+      },
+      "angle_rmse": {
+        "knee": 12.33676449518398,
+        "hip": 6.904279493921282,
+        "elbow": 8.233373938104787
+      },
+      "angle_me": {
+        "knee": 12.246935964983885,
+        "hip": 6.6313153429634495,
+        "elbow": -8.124307927269319
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "15": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 16.666666666666664,
+          "elbow": 70.83333333333334,
+          "hip": 0.0,
+          "knee": 70.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 95.83333333333334,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 58.333333333333336,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 73.33333333333333,
+        "elbow": 84.16666666666669,
+        "hip": 41.66666666666667,
+        "knee": 83.33333333333333,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 10.520406716762201,
+        "hip": 9.854738338826378,
+        "elbow": 5.884789828601179
+      },
+      "angle_rmse": {
+        "knee": 11.105463809260868,
+        "hip": 10.243295045281421,
+        "elbow": 6.290103550937965
+      },
+      "angle_me": {
+        "knee": 10.520406716762201,
+        "hip": 9.854738338826378,
+        "elbow": 5.884789828601179
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "16": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 20.833333333333336,
+          "elbow": 0.0,
+          "hip": 8.333333333333332,
+          "knee": 66.66666666666666,
+          "shoulder": 95.83333333333334,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 62.5,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 74.16666666666667,
+        "elbow": 62.5,
+        "hip": 71.66666666666667,
+        "knee": 83.33333333333333,
+        "shoulder": 89.16666666666669,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 8.6132370152722,
+        "hip": 1.5793869667652647,
+        "elbow": 3.7186548060656257
+      },
+      "angle_rmse": {
+        "knee": 8.691851704280218,
+        "hip": 1.9372421727070972,
+        "elbow": 4.169743369177673
+      },
+      "angle_me": {
+        "knee": 8.6132370152722,
+        "hip": 1.5083202191953067,
+        "elbow": 3.5390798672587764
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "17": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 29.166666666666668,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 79.16666666666666,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 54.166666666666664,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 75.83333333333333,
+        "elbow": 90.0,
+        "hip": 60.83333333333333,
+        "knee": 85.83333333333334,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 8.431794603308889,
+        "hip": 5.901398091220595,
+        "elbow": 5.023509545117536
+      },
+      "angle_rmse": {
+        "knee": 8.77124004253773,
+        "hip": 6.406882354608624,
+        "elbow": 5.115221366403053
+      },
+      "angle_me": {
+        "knee": 8.431794603308889,
+        "hip": 5.901398091220595,
+        "elbow": 5.023509545117536
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "18": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 66.66666666666666,
+          "elbow": 100.0,
+          "hip": 4.166666666666666,
+          "knee": 54.166666666666664,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 83.33333333333334,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 83.33333333333333,
+        "elbow": 90.0,
+        "hip": 67.5,
+        "knee": 80.83333333333333,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 10.04035194141404,
+        "hip": 3.7795859906524716,
+        "elbow": 1.1287294133555115
+      },
+      "angle_rmse": {
+        "knee": 10.250533628604414,
+        "hip": 4.18960685610265,
+        "elbow": 1.4025655428225399
+      },
+      "angle_me": {
+        "knee": 10.04035194141404,
+        "hip": 3.7795859906524716,
+        "elbow": -0.537387745955126
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    },
+    "19": {
+      "detection_rate": {
+        "ankle": 1.0,
+        "elbow": 1.0,
+        "hip": 1.0,
+        "knee": 1.0,
+        "shoulder": 1.0,
+        "wrist": 1.0
+      },
+      "pckh": {
+        "0.0": {
+          "ankle": 0.0,
+          "elbow": 0.0,
+          "hip": 0.0,
+          "knee": 0.0,
+          "shoulder": 0.0,
+          "wrist": 0.0
+        },
+        "0.1": {
+          "ankle": 8.333333333333332,
+          "elbow": 100.0,
+          "hip": 0.0,
+          "knee": 58.333333333333336,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.2": {
+          "ankle": 87.5,
+          "elbow": 100.0,
+          "hip": 29.166666666666668,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.3": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.4": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        },
+        "0.5": {
+          "ankle": 100.0,
+          "elbow": 100.0,
+          "hip": 100.0,
+          "knee": 100.0,
+          "shoulder": 100.0,
+          "wrist": 100.0
+        }
+      },
+      "auc": {
+        "ankle": 69.16666666666667,
+        "elbow": 90.0,
+        "hip": 55.83333333333333,
+        "knee": 81.66666666666667,
+        "shoulder": 90.0,
+        "wrist": 90.0
+      },
+      "angle_mae": {
+        "knee": 12.336994653061737,
+        "hip": 10.23767122591491,
+        "elbow": 1.0257961433695602
+      },
+      "angle_rmse": {
+        "knee": 12.387024551521433,
+        "hip": 10.363665247930921,
+        "elbow": 1.3024758877440326
+      },
+      "angle_me": {
+        "knee": 12.336994653061737,
+        "hip": 10.23767122591491,
+        "elbow": -0.8505345163246018
+      },
+      "n_frames": {
+        "ankle": {
+          "detected": 24,
+          "total": 24
+        },
+        "elbow": {
+          "detected": 24,
+          "total": 24
+        },
+        "hip": {
+          "detected": 24,
+          "total": 24
+        },
+        "knee": {
+          "detected": 24,
+          "total": 24
+        },
+        "shoulder": {
+          "detected": 24,
+          "total": 24
+        },
+        "wrist": {
+          "detected": 24,
+          "total": 24
+        }
+      }
+    }
+  },
+  "inference_time": {
+    "total_seconds": 688.6084115505219,
+    "per_frame_ms": 1434.6008573969204,
+    "fps": 0.6970579968943399
+  },
+  "keypoint_mapping": {
+    "left_shoulder": 5,
+    "right_shoulder": 6,
+    "left_elbow": 7,
+    "right_elbow": 8,
+    "left_wrist": 9,
+    "right_wrist": 10,
+    "left_hip": 11,
+    "right_hip": 12,
+    "left_knee": 13,
+    "right_knee": 14,
+    "left_ankle": 15,
+    "right_ankle": 16
+  }
+}

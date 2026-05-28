@@ -1,0 +1,5 @@
+names:
+  0: wheel
+path: data/dataset
+train: images/all
+val: images/all
