@@ -4,6 +4,8 @@ This folder contains the PyQt6 desktop demonstrator developed for the thesis **B
 
 The app processes a side-view cycling video, estimates rider pose using YOLO11, extracts joint angles across the pedal stroke, identifies critical pedal positions, and compares the resulting measurements against discipline-specific target ranges. It can optionally apply the wheel-based perspective-correction method developed in the thesis.
 
+The trained wheel model used by the demonstrator is included as `wheel.pt`. The internal wheel-segmentation and perspective-correction image datasets used during development are not redistributed with this public repository.
+
 ## Features
 
 - Drag-and-drop or file-picker video loading.

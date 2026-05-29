@@ -11,6 +11,16 @@ env/
 app/output_videos/*
 !app/output_videos/.gitkeep
 
+# Internal research datasets and derived visual artefacts not redistributed
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/dataset/
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/test_images/
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_splits/split_*/
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_splits/kfold_datasplit.csv
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_splits/kfold_label_distribution.csv
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/runs/
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/plots/fig_loss_discrimination.pdf
+evaluation/notebooks/03_wheel_detection_and_perspective_correction/plots/fig_correction_pairs.pdf
+
 # Local environment/config files
 .env
 .env.*

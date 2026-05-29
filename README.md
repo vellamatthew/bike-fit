@@ -1,6 +1,6 @@
 # Bike Fit and Posture Estimation Artefact Repository
 
-This repository accompanies the thesis **Bike Fit and Posture Estimation using Machine Learning**. It contains the code, data artefacts, saved predictions, evaluation outputs, trained wheel detector, and desktop demonstrator used to investigate markerless bike fitting from consumer cycling footage.
+This repository accompanies the thesis **Bike Fit and Posture Estimation using Machine Learning**. It contains the code, public data artefacts, saved predictions, evaluation outputs, trained wheel detector, and desktop demonstrator used to investigate markerless bike fitting from consumer cycling footage.
 
 The work has two main parts:
 
@@ -39,8 +39,7 @@ The repository includes the artefacts needed to inspect the thesis results witho
 - Saved predictions for the 25 pose-estimation configurations.
 - Saved aggregate and per-video pose-evaluation results.
 - Analysis notebooks and generated plots used in the thesis.
-- The 165-image wheel segmentation dataset and five-fold split artefacts.
-- Cross-validation metrics and final wheel detector training outputs.
+- Wheel-detector cross-validation metric summaries.
 - `app/wheel.pt`, the trained wheel segmentation model used by the demonstrator.
 - The full desktop application source code.
 
@@ -51,6 +50,8 @@ Some files are intentionally omitted because they are large third-party assets o
 - COCO and MPII benchmark datasets.
 - The full third-party pose-model zoo used to rerun pose inference from scratch.
 - Original non-anonymised Reddit source videos.
+- The 165-image wheel segmentation dataset, its five-fold image/label split copies, and generated training-run visualisations.
+- The 40-image perspective-correction validation set and the additional internal weight-derivation images.
 
 See:
 
@@ -123,10 +124,9 @@ Important contents:
 
 - `01_model_training.ipynb` builds five-fold splits, trains the YOLO wheel segmentation model, validates each fold, and trains the final deployment model.
 - `02_perspective_correction.ipynb` evaluates the ellipse-based homography correction method.
-- `data/dataset/` contains the annotated wheel segmentation dataset.
+- The annotated wheel segmentation dataset and perspective-correction image sets are not redistributed in this public artefact repository.
 - `data/kfold_5_splits/kfold_metrics_summary.csv` contains fold-level segmentation metrics.
-- `data/runs/final_model/all_data_deployment/` contains the final model training artefacts.
-- `plots/fig_loss_discrimination.pdf` and `plots/fig_correction_pairs.pdf` correspond to the thesis figures.
+- Generated training-run visualisations and correction figures derived from the internal image sets are omitted.
 
 The final wheel model is copied into `app/wheel.pt` for use by the demonstrator.
 
