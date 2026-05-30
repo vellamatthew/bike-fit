@@ -126,7 +126,8 @@ Important contents:
 - `02_perspective_correction.ipynb` evaluates the ellipse-based homography correction method.
 - The annotated wheel segmentation dataset and perspective-correction image sets are not redistributed in this public artefact repository.
 - `data/kfold_5_splits/kfold_metrics_summary.csv` contains fold-level segmentation metrics.
-- Generated training-run visualisations and correction figures derived from the internal image sets are omitted.
+- Generated training-run visualisations derived from the internal image sets are omitted.
+- `plots/fig_loss_discrimination.pdf` and `plots/fig_correction_pairs.pdf` correspond to the thesis figures.
 
 The final wheel model is copied into `app/wheel.pt` for use by the demonstrator.
 

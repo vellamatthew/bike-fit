@@ -18,8 +18,6 @@ evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_
 evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_splits/kfold_datasplit.csv
 evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/kfold_5_splits/kfold_label_distribution.csv
 evaluation/notebooks/03_wheel_detection_and_perspective_correction/data/runs/
-evaluation/notebooks/03_wheel_detection_and_perspective_correction/plots/fig_loss_discrimination.pdf
-evaluation/notebooks/03_wheel_detection_and_perspective_correction/plots/fig_correction_pairs.pdf
 
 # Local environment/config files
 .env
